@@ -8,5 +8,5 @@ zuul:
   ignoredServices: '*'
   routes:
     demo-service:
-      path: /students/**
-      url: http://localhost:8091
+      path: /demo/**
+      url: http://localhost:8091/students/
