@@ -1,5 +1,5 @@
 server:
-  port: 8020
+  port: 8030
 
 zuul:
  routes:
@@ -15,5 +15,5 @@ zuul:
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${eureka.hostname:http://localhost:8761}/eureka
+      defaultZone: ${eureka.hostname:eureka.instance.hostName:http://localhost:8761}/eureka
       #defaultZone: http://localhost:8761/eureka
