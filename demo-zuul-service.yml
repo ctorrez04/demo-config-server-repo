@@ -16,5 +16,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: ${eureka.hostname}/eureka
-      #defaultZone: http://localhost:8761/eureka
-      #defaultZone: ${REGISTRY_SERVICE_HOST}

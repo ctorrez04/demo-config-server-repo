@@ -8,6 +8,5 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: ${eureka.host}:${server.port}/eureka/
-      #defaultZone: http://localhost:${server.port}/eureka/
   server:
     waitTimeInMsWhenSyncEmpty: 0    #wait time for subsequent sync
